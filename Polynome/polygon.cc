@@ -1,9 +1,8 @@
-// Loris Wilwert, Raphael Julien Ebner, Catherine Wampach
+
 #include "polygon.hh"
 #include "point.hh"
 #include <vector>
 
-/* ----- Punkt b ----- */
 
 // Konstruktor mit Liste von Eckpunkten
 Polygon::Polygon(const std::vector<Point>& corners)
@@ -29,7 +28,7 @@ const Point& Polygon::corner(std::size_t i) const {
 }
 
 
-/* ----- Punkt c ----- */
+
 double Polygon::volume() const {
     int size = this->corners();
     if (size <= 2)
