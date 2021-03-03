@@ -1,8 +1,6 @@
-// Loris Wilwert, Raphael Julien Ebner, Catherine Wampach
+
 #include "point.hh"
 
-
-/* ----- Punkt a ----- */
 
 // Default-Konstruktor
 Point::Point()
