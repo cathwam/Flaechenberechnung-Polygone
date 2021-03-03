@@ -1,8 +1,7 @@
-// Loris Wilwert, Raphael Julien Ebner, Catherine Wampach
+
 #ifndef POINT_HH
 #define POINT_HH
 
-/* ----- Punkt a ----- */
 class Point {
     // die Member-Variablen sind private (default)
     const double _x;
