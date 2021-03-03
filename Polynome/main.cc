@@ -1,5 +1,4 @@
-// Loris Wilwert, Raphael Julien Ebner, Catherine Wampach
-// Aufgabe 1
+
 #include "polygon.hh"
 #include "point.hh"
 #include <iostream>
@@ -8,7 +7,6 @@
 
 
 int main() {
-    /* ----- Punkt d ----- */
     const double pi = M_PI;
     
     for (int n = 1; n <= 10; n++) {
@@ -23,7 +21,6 @@ int main() {
         std::cout << "Berechnete Fläche: " << pol.volume() << std::endl << std::endl;
     }
 
-    /* ----- Punkt e ----- */
     std::vector<Point> ueberschlagen = {Point(0,0), Point(1,0), Point(0,1), Point(1,1)};
     Polygon ueberschlagen_pol(ueberschlagen);
     std::cout << "Überschlagenes Polygon mit den Punkten (0,0), (1,0), (0,1), (1,1):" << std::endl;
