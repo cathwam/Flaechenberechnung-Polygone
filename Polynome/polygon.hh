@@ -1,11 +1,11 @@
-// Loris Wilwert, Raphael Julien Ebner, Catherine Wampach
+
 #include "point.hh"
 #include <vector>
 
 #ifndef POLYGON_HH
 #define POLYGON_HH
 
-/* ----- Punkt b ----- */
+
 class Polygon {
     // die Member-Variablen sind private (default)
     std::vector<Point> _corner_vec;
@@ -20,7 +20,6 @@ class Polygon {
 
         const Point& corner(std::size_t i) const;
 
-        /* ----- Punkt c ----- */
         double volume() const;
 };
 #endif // POLYGON_HH
